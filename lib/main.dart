@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:liquid_swipe/Constants/Helpers.dart';
+
 import 'package:liquid_swipe/liquid_swipe.dart';
 
 // Temporibus autem aut\n
@@ -27,8 +27,8 @@ class MyApp extends StatelessWidget {
 
   static const TextStyle greyStyle =
       TextStyle(fontSize: 40.0, color: Colors.grey, fontFamily: "Product Sans");
-        static const TextStyle whiteStyle =
-      TextStyle(fontSize: 40.0, color: Colors.white, fontFamily: "Product Sans");
+  static const TextStyle whiteStyle = TextStyle(
+      fontSize: 40.0, color: Colors.white, fontFamily: "Product Sans");
 
   static const TextStyle boldStyle = TextStyle(
     fontSize: 50.0,
@@ -153,7 +153,7 @@ class MyApp extends StatelessWidget {
         ],
       ),
     ),
-     Container(
+    Container(
       color: Colors.orange,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
