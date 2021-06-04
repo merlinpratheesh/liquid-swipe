@@ -212,11 +212,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: LiquidSwipe(
           pages: pages,
+          slideIconWidget: Icon(Icons.arrow_back_ios),
           enableLoop: true,
           fullTransitionValue: 300,
-          enableSlideIcon: true,
+          enableSideReveal: true,
           waveType: WaveType.liquidReveal,
-          positionSlideIcon: 0.5,
+          positionSlideIcon: 0.8,
         ),
       ),
     );
